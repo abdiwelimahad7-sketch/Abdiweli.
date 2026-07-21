@@ -1,58 +1,83 @@
 <!DOCTYPE html>
-<html lang="so">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supermarket Badbaado | Alaabta</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Supermarket Products</title>
 </head>
 <body>
 
-    <header>
-        <div class="logo">🛒 Badbaado Market</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Hoyga</a></li>
-                <li><a href="products.html" class="active">Alaabta</a></li>
-                <li><a href="about.html">Nagu Saabsan</a></li>
-                <li><a href="contact.html">Nala Soco</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1 align="center">Fresh Supermarket</h1>
+    <hr>
 
-    <section class="container">
-        <h2 class="section-title">Alaabta Aan Ibinno</h2>
-        
-        <div class="product-grid">
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=300" alt="Muus">
-                <h3>Muus Cusub</h3>
-                <p class="price">$1.50 / Kg</p>
-            </div>
+    <h2>Our Products</h2>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=300" alt="Caano">
-                <h3>Caano Safi ah</h3>
-                <p class="price">$2.00 / Litir</p>
-            </div>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Product</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300" alt="Rooti">
-                <h3>Rooti Macaan</h3>
-                <p class="price">$0.80 / Xabbo</p>
-            </div>
+        <tr>
+            <td>Rice</td>
+            <td><img src="rice.jpg" width="100" alt="Rice"></td>
+            <td>$20</td>
+            <td>Available</td>
+        </tr>
 
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=300" alt="Saliid">
-                <h3>Saliid Macsar</h3>
-                <p class="price">$5.50 / Litir</p>
-            </div>
-        </div>
-    </section>
+        <tr>
+            <td>Milk</td>
+            <td><img src="milk.jpg" width="100" alt="Milk"></td>
+            <td>$2</td>
+            <td>Available</td>
+        </tr>
 
-    <footer>
-        <p>&copy; 2026 Badbaado Supermarket. Xuquuqda way dhowran tahay.</p>
-    </footer>
+        <tr>
+            <td>Bread</td>
+            <td><img src="bread.jpg" width="100" alt="Bread"></td>
+            <td>$1.50</td>
+            <td>Available</td>
+        </tr>
 
-</body>
-</html>
+        <tr>
+            <td>Apple</td>
+            <td><img src="apple.jpg" width="100" alt="Apple"></td>
+            <td>$3</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Cooking Oil</td>
+            <td><img src="oil.jpg" width="100" alt="Cooking Oil"></td>
+            <td>$10</td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h2>Customer Information</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Select Product:</label><br>
+        <select>
+            <option>Rice</option>
+            <option>Milk</option>
+            <option>Bread</option>
+            <option>Apple</option>
+            <option>Cooking Oil</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" min="1"><br><br>
+
+        <input type="submit" value="Order Now">
+    </form>
