@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Badbaado | Hoyga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">🛒 Badbaado Market</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Hoyga</a></li>
+                <li><a href="products.html">Alaabta</a></li>
+                <li><a href="about.html">Nagu Saabsan</a></li>
+                <li><a href="contact.html">Nala Soco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Ku Soo Dhowow Supermarket-ka Badbaado</h1>
+        <p>Halkan waxaad ka helaysaa alaab kasta oo qoyskaagu u baahan yahay oo tayo leh.</p>
+        <a href="products.html" class="btn">Eeg Alaabta Aan Ibinayno</a>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">Maxay Macaamiishu Noogu Dooranayaan?</h2>
+        <div class="row">
+            <div class="col">
+                <h3>Qiimo Jaban</h3>
+                <p>Waxaan kuu haynaa qiimo ku habboon jeebkaada iyo dalabyo joogto ah.</p>
+            </div>
+            <div class="col">
+                <h3>Alaab Tayo Leh</h3>
+                <p>Dhammaan khudaarta iyo hilibka aan iibinno waa kuwo cusub maalin kasta.</p>
+            </div>
+            <div class="col">
+                <h3>Adeeg Degdeg ah</h3>
+                <p>Shaqaalaheenu waxay had iyo jeer u taagan yihiin inay kuu adeegaan si dhakhso leh.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Badbaado Supermarket. Xuquuqda way dhowran tahay.</p>
+    </footer>
+
+</body>
+</html>
