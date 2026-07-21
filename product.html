@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Products</title>
+</head>
+<body>
+
+    <h1 align="center">Fresh Supermarket</h1>
+    <hr>
+
+    <h2>Our Products</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Product</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Rice</td>
+            <td><img src="rice.jpg" width="100" alt="Rice"></td>
+            <td>$20</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Milk</td>
+            <td><img src="milk.jpg" width="100" alt="Milk"></td>
+            <td>$2</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Bread</td>
+            <td><img src="bread.jpg" width="100" alt="Bread"></td>
+            <td>$1.50</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Apple</td>
+            <td><img src="apple.jpg" width="100" alt="Apple"></td>
+            <td>$3</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>Cooking Oil</td>
+            <td><img src="oil.jpg" width="100" alt="Cooking Oil"></td>
+            <td>$10</td>
+            <td>Available</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <h2>Customer Information</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Select Product:</label><br>
+        <select>
+            <option>Rice</option>
+            <option>Milk</option>
+            <option>Bread</option>
+            <option>Apple</option>
+            <option>Cooking Oil</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" min="1"><br><br>
+
+        <input type="submit" value="Order Now">
+    </form>
